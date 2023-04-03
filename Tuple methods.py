@@ -1,0 +1,11 @@
+m1 = int(input("Enter marks for student1: "))
+m2 = int(input("Enter marks for student2: "))
+m3 = int(input("Enter marks for student3: "))
+m4 = int(input("Enter marks for student4: "))
+m5 = int(input("Enter marks for student5: "))
+m6 = int(input("Enter marks for student6: "))
+sort_marks = [m1, m2, m3, m4, m5, m6]
+sort_marks.sort()
+print(sort_marks)
+print(sort_marks.count(45))
+print(sort_marks.index(45))

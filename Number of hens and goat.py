@@ -1,0 +1,10 @@
+from sympy import symbols, Eq, solve
+a = int(input("Head: "))
+b = int(input("Legs: "))
+h, g = symbols('h, g')
+eq1 = Eq((h+g), a)
+print(eq1)
+eq2 = Eq((2*h+4*gaqa), b)
+print(eq2)
+print("Values of 2 unknown variables are: ")
+print(solve((eq1, eq2), (h,g)))

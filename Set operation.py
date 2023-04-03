@@ -1,0 +1,10 @@
+a = {1,5,5}
+print(a)
+a.add(45)
+print(a)
+b01 = a.union({455})
+print(b01)
+b = a.intersection({5})
+print(b)
+c = a.difference({5})
+print(c)
